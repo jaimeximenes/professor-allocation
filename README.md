@@ -10,6 +10,10 @@ O frontend consome a API REST do backend desenvolvido na disciplina de backend
 Java/MySQL, o projeto inclui uma API simulada com **json-server** que expõe as
 mesmas rotas e o mesmo formato de JSON dos DTOs do backend.
 
+- **Site publicado:** <https://professor-allocation-psi.vercel.app> (modo
+  demonstração: os dados ficam salvos no seu navegador)
+- **Código:** <https://github.com/jaimeximenes/professor-allocation>
+
 ## Requisitos da avaliação
 
 | Requisito                                            | Como foi atendido                                                                                                                              |
@@ -21,7 +25,7 @@ mesmas rotas e o mesmo formato de JSON dos DTOs do backend.
 | Interface amigável (Chakra UI, Bootstrap ou MUI)     | **Chakra UI**, tema claro/escuro, layout responsivo (menu mobile), toasts, confirmações e estados de carregamento, vazio e erro                |
 | CRUD com pelo menos 2 entidades                      | CRUD completo das **4 entidades** (listar, buscar, cadastrar, editar, excluir e ver detalhes)                                                  |
 | Entrega do código em repositório Git                 | Este repositório                                                                                                                               |
-| Publicação em nuvem (opcional)                       | Pronto para Vercel/Netlify (`vercel.json` e `public/_redirects`); o build publicado roda em modo demonstração                                  |
+| Publicação em nuvem (opcional)                       | Publicado na **Vercel**: <https://professor-allocation-psi.vercel.app> (modo demonstração)                                                     |
 
 ## Como rodar
 

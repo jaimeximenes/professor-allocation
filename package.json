@@ -1,0 +1,60 @@
+{
+  "name": "professor-allocation-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Frontend do sistema Professor Allocation (Fafire 2026) com React, Vite, TanStack Router e Chakra UI.",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n api,web -c magenta,cyan \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:web": "vite --port 3000",
+    "dev:api": "node scripts/db.mjs ensure && json-server db/database.json --port 3333",
+    "dev:backend": "vite --port 3000 --mode backend",
+    "db:reset": "node scripts/db.mjs reset",
+    "generate-routes": "tsr generate",
+    "typecheck": "tsr generate && tsc -b",
+    "build": "tsr generate && tsc -b && vite build",
+    "preview": "vite preview --port 4173",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "format": "prettier --write . && eslint --fix .",
+    "check": "prettier --check ."
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.10.10",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@hookform/resolvers": "^5.9.1",
+    "@tanstack/react-query": "^5.104.1",
+    "@tanstack/react-router": "^1.170.41",
+    "framer-motion": "^13.5.1",
+    "lucide-react": "^1.51.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-hook-form": "^7.89.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tanstack/router-cli": "^1.167.40",
+    "@tanstack/router-plugin": "^1.168.42",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "concurrently": "^10.0.5",
+    "eslint": "^10.12.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "json-server": "^1.0.0-beta.15",
+    "prettier": "^3.9.9",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.71.0",
+    "vite": "^8.3.2",
+    "vitest": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

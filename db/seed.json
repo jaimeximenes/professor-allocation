@@ -1,0 +1,202 @@
+{
+  "departments": [
+    { "id": "1", "name": "Computação e Tecnologia" },
+    { "id": "2", "name": "Ciências Exatas" },
+    { "id": "3", "name": "Ciências Humanas e Sociais" },
+    { "id": "4", "name": "Gestão e Negócios" },
+    { "id": "5", "name": "Educação" }
+  ],
+  "courses": [
+    { "id": "1", "name": "Desenvolvimento Frontend" },
+    { "id": "2", "name": "Desenvolvimento Backend" },
+    { "id": "3", "name": "Banco de Dados" },
+    { "id": "4", "name": "Engenharia de Software" },
+    { "id": "5", "name": "Estruturas de Dados" },
+    { "id": "6", "name": "Cálculo I" },
+    { "id": "7", "name": "Estatística Aplicada" },
+    { "id": "8", "name": "Ética e Cidadania" },
+    { "id": "9", "name": "Metodologia Científica" },
+    { "id": "10", "name": "Empreendedorismo" },
+    { "id": "11", "name": "Inteligência Artificial" }
+  ],
+  "professors": [
+    {
+      "id": "1",
+      "name": "Ana Beatriz Cavalcanti",
+      "cpf": "80426424662",
+      "departmentId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Bruno Henrique Albuquerque",
+      "cpf": "12808448252",
+      "departmentId": "1"
+    },
+    {
+      "id": "3",
+      "name": "Carla Mendes Siqueira",
+      "cpf": "44688002408",
+      "departmentId": "1"
+    },
+    {
+      "id": "4",
+      "name": "Diego Santana Lins",
+      "cpf": "96806844235",
+      "departmentId": "2"
+    },
+    {
+      "id": "5",
+      "name": "Eduarda Freitas Moura",
+      "cpf": "24844043285",
+      "departmentId": "2"
+    },
+    {
+      "id": "6",
+      "name": "Fernando Rocha Barreto",
+      "cpf": "56660668624",
+      "departmentId": "3"
+    },
+    {
+      "id": "7",
+      "name": "Gabriela Nunes Teixeira",
+      "cpf": "04206802092",
+      "departmentId": "3"
+    },
+    {
+      "id": "8",
+      "name": "Henrique Duarte Pacheco",
+      "cpf": "36804208625",
+      "departmentId": "4"
+    }
+  ],
+  "allocations": [
+    {
+      "id": "1",
+      "dayOfWeek": "MONDAY",
+      "startHour": "08:00:00",
+      "endHour": "10:00:00",
+      "professorId": "1",
+      "courseId": "1"
+    },
+    {
+      "id": "2",
+      "dayOfWeek": "MONDAY",
+      "startHour": "10:00:00",
+      "endHour": "12:00:00",
+      "professorId": "2",
+      "courseId": "2"
+    },
+    {
+      "id": "3",
+      "dayOfWeek": "MONDAY",
+      "startHour": "19:00:00",
+      "endHour": "21:00:00",
+      "professorId": "4",
+      "courseId": "6"
+    },
+    {
+      "id": "4",
+      "dayOfWeek": "TUESDAY",
+      "startHour": "08:00:00",
+      "endHour": "10:00:00",
+      "professorId": "3",
+      "courseId": "3"
+    },
+    {
+      "id": "5",
+      "dayOfWeek": "TUESDAY",
+      "startHour": "10:00:00",
+      "endHour": "12:00:00",
+      "professorId": "1",
+      "courseId": "4"
+    },
+    {
+      "id": "6",
+      "dayOfWeek": "TUESDAY",
+      "startHour": "19:00:00",
+      "endHour": "21:00:00",
+      "professorId": "6",
+      "courseId": "8"
+    },
+    {
+      "id": "7",
+      "dayOfWeek": "WEDNESDAY",
+      "startHour": "08:00:00",
+      "endHour": "10:00:00",
+      "professorId": "2",
+      "courseId": "5"
+    },
+    {
+      "id": "8",
+      "dayOfWeek": "WEDNESDAY",
+      "startHour": "14:00:00",
+      "endHour": "16:00:00",
+      "professorId": "5",
+      "courseId": "7"
+    },
+    {
+      "id": "9",
+      "dayOfWeek": "WEDNESDAY",
+      "startHour": "19:00:00",
+      "endHour": "21:00:00",
+      "professorId": "8",
+      "courseId": "10"
+    },
+    {
+      "id": "10",
+      "dayOfWeek": "THURSDAY",
+      "startHour": "08:00:00",
+      "endHour": "10:00:00",
+      "professorId": "1",
+      "courseId": "1"
+    },
+    {
+      "id": "11",
+      "dayOfWeek": "THURSDAY",
+      "startHour": "10:00:00",
+      "endHour": "12:00:00",
+      "professorId": "3",
+      "courseId": "3"
+    },
+    {
+      "id": "12",
+      "dayOfWeek": "THURSDAY",
+      "startHour": "19:00:00",
+      "endHour": "21:00:00",
+      "professorId": "7",
+      "courseId": "9"
+    },
+    {
+      "id": "13",
+      "dayOfWeek": "FRIDAY",
+      "startHour": "08:00:00",
+      "endHour": "10:00:00",
+      "professorId": "2",
+      "courseId": "2"
+    },
+    {
+      "id": "14",
+      "dayOfWeek": "FRIDAY",
+      "startHour": "10:00:00",
+      "endHour": "12:00:00",
+      "professorId": "4",
+      "courseId": "6"
+    },
+    {
+      "id": "15",
+      "dayOfWeek": "FRIDAY",
+      "startHour": "14:00:00",
+      "endHour": "16:00:00",
+      "professorId": "5",
+      "courseId": "7"
+    },
+    {
+      "id": "16",
+      "dayOfWeek": "SATURDAY",
+      "startHour": "08:00:00",
+      "endHour": "12:00:00",
+      "professorId": "8",
+      "courseId": "10"
+    }
+  ]
+}

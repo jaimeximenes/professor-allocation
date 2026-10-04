@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Banco do json-server (gerado a partir de db/seed.json)
+db/database.json
+
+# Arquivos temporários do gerador de rotas do TanStack Router
+.tanstack/
+
+# Projeto backend (repositório próprio, mantido aqui apenas como referência)
+professor-alocation/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Configurações locais do Claude Code
+.claude/
